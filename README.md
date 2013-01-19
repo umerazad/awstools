@@ -7,15 +7,24 @@ Make sure to modify the **JAVA_HOME** variable before using it. It's actually ha
 
 I'll try to keep the tools up to date. If not, feel free to Contribute ;)
 
-Setup
-=====
+Assumptions
+============
 For this repository I assume that you already have this directory tree.
 <pre>
 ~/.ec2
-   |---- aws-credential-ES <- AWS Credentials as shown in aws-credential.template [AWS CREDENTIAL][AWS CREDENTIAL]
-   |---- cert-ES.pem <- Cert x.509 Amazon certificate [AWS CREDENTIAL][AWS CREDENTIAL] Download it and Rename.
-   |---- pk-ES.pem <- PK x.509 Amazon certificate [AWS CREDENTIAL][AWS CREDENTIAL] Download it and Rename.
+   |---- aws-credential-ES
+   |---- cert-ES.pem
+   |---- pk-ES.pem
 </pre>
+
+### File Description
+
+* aws-credential-ES: AWS Credentials as shown in aws-credential.template [AWS CREDENTIAL][AWS CREDENTIAL]
+* cert-ES.pem: Cert x.509 Amazon certificate [AWS CREDENTIAL][AWS CREDENTIAL] Download it and Rename.
+* pk-ES.pem: PK x.509 Amazon certificate [AWS CREDENTIAL][AWS CREDENTIAL] Download it and Rename.
+
+Setup
+======
 
 * Clone the repository into your ~/.ec2/aws-tools directory
 * Modify your .bashrc or .bash_profile adding this lines
