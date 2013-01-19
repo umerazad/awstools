@@ -1,7 +1,7 @@
 aws-tools
 =========
 
-This are all the tools you need to manage your AWS from the command line.
+This are all the tools you need to manage your AWS public cloud from the command line.
 
 Make sure to modify the **JAVA_HOME** variable before using it. It's actually hardcoded for OSX Mountain Lion.
 
@@ -9,12 +9,12 @@ I'll try to keep the tools up to date. If not, feel free to Contribute ;)
 
 Setup
 =====
-For this repository I assume that you have already this directory tree.
+For this repository I assume that you already have this directory tree.
 <pre>
 ~/.ec2
-   |---- aws-credential-ES
-   |---- cert-ES.pem
-   |---- pk-ES.pem
+   |---- aws-credential-ES <- AWS Credentials as shown in aws-credential.template [AWS CREDENTIAL][AWS CREDENTIAL]
+   |---- cert-ES.pem <- Cert x.509 Amazon certificate [AWS CREDENTIAL][AWS CREDENTIAL] Download it and Rename.
+   |---- pk-ES.pem <- PK x.509 Amazon certificate [AWS CREDENTIAL][AWS CREDENTIAL] Download it and Rename.
 </pre>
 
 * Clone the repository into your ~/.ec2/aws-tools directory
@@ -62,3 +62,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[AWS CREDENTIALS] : https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key
