@@ -19,9 +19,9 @@ For this repository I assume that you already have this directory tree.
 
 ### File Description
 
-* aws-credential-ES: AWS Credentials as shown in aws-credential.template [AWS CREDENTIAL][AWS CREDENTIAL]
-* cert-ES.pem: Cert x.509 Amazon certificate [AWS CREDENTIAL][AWS CREDENTIAL] Download it and Rename.
-* pk-ES.pem: PK x.509 Amazon certificate [AWS CREDENTIAL][AWS CREDENTIAL] Download it and Rename.
+* aws-credential-ES: AWS Credentials as shown in aws-credential.template [AWS CREDENTIALS] [CREDENTIALS]
+* cert-ES.pem: Cert x.509 Amazon certificate [AWS CREDENTIALS] [CREDENTIALS] Download it and Rename.
+* pk-ES.pem: PK x.509 Amazon certificate [AWS CREDENTIALS] [CREDENTIALS] Download it and Rename.
 
 Setup
 ======
@@ -72,4 +72,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[AWS CREDENTIALS] : https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key
+[CREDENTIALS]: https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key
