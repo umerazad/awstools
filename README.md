@@ -27,11 +27,11 @@ Setup
 ======
 
 * Clone the repository into your ~/.ec2/aws-tools directory
-* Modify your .bashrc or .bash_profile adding this lines
+* Modify your .zshrc (.bashrc or .bash_profile if you are a bash user) adding this lines
 
 <pre>
-if [ -f ~/.ec2/aws-tools/.bash_aws ]; then
-    . ~/.ec2/aws-tools/.bash_aws
+if [ -f ~/.ec2/aws-tools/.zsh_aws]; then
+    . ~/.ec2/aws-tools/.zsh_aws
 fi
 </pre>
 
